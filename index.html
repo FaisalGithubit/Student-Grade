@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student Grade</title>
+</head>
+<body>
+     <form onsubmit="grade();return false">
+        <label for="Student" class="heading">Student Name:</label>
+        <br>
+        <br>
+        <input type="text" id="Student" class="input-inner" placeholder="Enter Your Name">
+        <br>
+        <br>
+        <label for="Total" class="heading">Total Marks:</label>
+        <br>
+        <br>
+        <input type="number" id="Total" class="input-inner" placeholder="Enter Your Total Marks.">
+        <br>
+        <br>
+        <label for="Obnum" class="heading">Obtain Marks:</label>
+        <br>
+        <br>
+        <input type="number" id="Obnum" class="input-inner" placeholder="Enter Your Obtain Marks."> 
+        <br>
+        <br>
+        <button class="btn" >Check Your Grade</button>
+        <br>
+        <br>
+       <p id="Percentage" class="per">Percentage</p>
+        <br>
+        <p id="Grade" class="Ger"> Grade</p>
+       
+     </form>
+    <script src="./java.js"></script>
+</body>
+</html>
